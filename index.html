@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>Jayesh's Portfolio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            
+            background-color: rgb(0, 0, 33);
+            color: aliceblue;
+            font-family: 'Poppins',sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(60, 12, 104);
+            height: 50px;
+            position: sticky;
+        }
+        nav ul{
+            display: flex;
+            justify-content:center ;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 23px;
+        }
+        nav ul li a{
+            color: white;
+        }
+        nav ul li a:hover{
+            font-style: initial;
+            font-weight: bold;
+            color: burlywood;
+            cursor:pointer ;
+            font-size: large;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            margin: 4.5vw 5vw;
+            align-items: center;
+        }
+        .firstsection > div{
+           width: 40%;
+        }
+        .leftsection{
+            margin: 30px 0px;
+            font-size: 2.7rem;
+        }
+        .rightsection img{
+            margin-right: 10%;
+            margin-top: 4px;
+    margin-left: 25%;
+    width: 50%;
+    border-radius: 35%;
+    border-style: groove;
+    border-color: yellow;
+        }
+    .purple{
+        color:rgb(155, 155, 214);
+        font-weight: bolder;
+    }
+    .rightsection img:hover{
+    
+     
+      border-style: dashed;
+      border:3px solid white;
+    }
+    #element{
+        color: rgb(155, 155, 214);
+    }
+
+     .secondsection{
+        max-width: 80vw;
+        margin: auto;
+     }
+    element.style{ background-color: lavenderblush;
+    border: 0px;
+    height: 2px;
+}
+main hr{
+    background-color:rgb(155, 155, 214);
+    border: 0px;
+    height: .4vh;
+    margin: 12vh 15vh;
+
+}
+.secondsection{
+    margin: 15vh 20vh;  
+    font-size:x-large;
+    font-family: cursive;
+}
+.upskill{
+    
+    display: flex;
+    color: white;
+}
+.upskill div{
+    border-radius: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    margin: 2vw 10vh;
+    width: 50vw;
+    height: 10vw;
+}
+.downskill{
+    
+    display: flex;
+    color: white;
+}
+.downskill div{
+    border-radius: 40%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    margin: 2vw 10vh;
+    width: 50vw;
+    height: 10vw;
+}
+.downskill div:hover{
+    background-color: rgb(108, 58, 156);
+    text-decoration: underline;
+    cursor: pointer;
+    border: 4px solid yellow;
+    font-weight: bold;
+    margin: 2vw 7vh;
+}
+.upskill div:hover{
+    background-color: rgb(108, 58, 156);
+    text-decoration: underline;
+    cursor: pointer;
+    border: 4px solid yellow;
+    font-weight: bold;
+    margin: 2vw 7vh;
+
+
+}
+.thirdsection{
+    margin: 13vh 20vh;
+}
+.thirdsection >div{
+    font-size: 2.3rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color:  rgb(193, 196, 240);
+}
+.list1{
+    color: white;
+    margin: 3.5vw;
+    font-weight: 100;
+    font-style: normal;
+}
+.list1 li{
+    margin: 1vw;
+    
+}
+.list1 li div{
+    font-size: 1.5rem;
+    font-style: italic;
+    display: flex;
+    width: 100%;
+    
+}
+.secondsection a{
+    text-decoration:none;
+    color:white;
+}
+.thirdsection hr{
+    
+    background-color:rgb(155, 155, 214);
+    border: 0px;
+    height: .4vh;
+    margin: 15vh .5vh;
+}
+.subproj{
+    font-weight: bolder;
+    font-style: normal !important;
+}
+.achievements li{
+    font-size: 1.5rem;
+}
+.handles li{
+    font-size: 1.5rem;
+}
+.handles a{
+    text-decoration: none;
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Jayesh's Portfolio</div>
+            <div class="right"><ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact Me</a></li>
+                
+            </ul></div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+           <div class="leftsection">
+            Hey! My name is <span class="purple">Jayesh Bhatnagar</span>
+            <div>And I am a passionate</div>
+            <span id="element"></span>
+           </div>
+           <div class="rightsection">
+            <img src="prof1.jpg">
+        
+           </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <div class="upskill"><div><a href="#education">EDUCATION</a>
+                </div>
+            <div><a href="#projects">PROJECTS</a></div>
+            <div><a href="#experience">EXPERIENCE</a></div></div>
+
+            <div class="downskill"><div><a href="#skills">SKILLS</a></div>
+            <div><a href="#achievements">ACHIEVEMENTS</a></div>
+            <div id="HANDLE"><a href="#handles">HANDLES</a></div></div>
+            
+        </section>
+        <hr>
+        <section class="thirdsection">
+        <div class="education">
+            <div id="education">EDUCATION -</div>
+            <div class="list1" >
+                <ul>
+                    <li>Maulana Azad National Institute of Technology, Bhopal<div>Bachelors of Technology - Electrical Engineering&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;CGPA:8.52</div><div class="date">Between (Dec 2021 - June 2025)</div></li>
+                    <li>Army Public School, Jaipur<div>Higher Senior Secondary Education&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;91.8%</div><div class="date">Between (2018 -  2020)</div></li>
+                    <li>Army Public School, Jaipur<div>Senior Secondary Education&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;96.4%</div><div class="date">Between (2008 -  2018)</div></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <hr>
+       <div class="projects">
+            <div id="projects">PROJECTS -</div>
+            <div class="list1" >
+                <ul>
+                    <li>POCKET DIGITAL SIGNAL OSCILLOSCOPE<div>(CORE PROJECT)</div><div class="date">
+                        <ul><li>
+                           <div class="subproj">GOAL-</div> Built an easy to carry and economical digital signal oscilloscope using ARDUINO which overcame the previous demerits of of an oscilloscope being very heavy and expensivy</li>
+                          <li> <div class="subproj">TOOLS-</div> C, ARDUINO Uno, Servo Motors, Switch, 16 pin LED,Circuit Components
+                        </li></ul>
+                    </div></li>
+                    <li>MYNTRA Shopping Site Clone<div>(Web Development Project)</div><div class="date">
+                        Used HTML, CSS, JavaScript to clone the homepage of MYNTRA shopping site
+                    </div></li>
+                    <li>Dictionary Website<div>(Web Development + API Project)</div><div class="date">
+                        Used HTML, CSS, JavaScript, RapidAPI to create a dictionary
+                    </div></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <hr>
+       <div class="experience">
+            <div id="experience">EXPERIENCE -</div>
+            <div class="list1" >
+                <ul>
+                    <li>Industrial Training<div>(CORE Training)</div>
+                        <div>Completed Industrial training at Jaipur Railway Station's Electrical Department</div><div class="date">Between (June 2023- July 2023)
+                        
+                    </div></li>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+        <hr>
+       <div class="skills">
+            <div id="skills">SKILLS -</div>
+            <div class="list1" >
+                <ul>
+                    <li>Languages<div>C++, C, HTML, CSS, JavaScript, NodeJS, React</div>
+                     </li>
+                    <li>Tools<div>MS-Office, Spreadsheets, MongoDB, EXPRESS</div>
+                     </li>
+                    <li>Soft Skills<div>Event Management, Public Speaking, Public Relations, Problem Solving, Leadership</div>
+                     </li>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+        <hr>
+       <div class="achievements">
+            <div id="achievements">ACHIEVEMENTS & POR -</div>
+            <div class="list1" >
+                <ul>
+                    <li>Technical Executive at ZENITH- Programing Club OF MANIT
+                     </li>
+                    <li>ANCHOR at ROOBAROO- Cultural Society of MANIT</li>
+                    <li>Participated in ALL INDIA INTER NIT Football Competition- 2023</li>
+                    <li>Secured 445 rank in CODATHON- Inter NIT Coding Competition</li>
+                    <li>Enrolled in GOOGLE'S DATA ANALYTICS CERTIFICATION COURSE</li>
+                    <li>Was the HEAD BOY of Army Public School, Jaipur</li>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+        <hr>
+       <div class="handles">
+            <div id="handles">SOCIAL HANDLES-</div>
+            <div class="list1" >
+                <ul>
+                    <li><a href="jayeshbhatnagar21@gmail.com">MAIL- jayeshbhatnagar21@gmail.com</a> 
+                     </li>
+                    <li><a href="https://www.linkedin.com/in/jayesh-bhatnagar-6b5a99225/?originalSubdomain=in">LINKDEN- JayeshBhatnagar</a></li>
+                    <li><a href="https://www.codechef.com/users/jayesh_21">CODECHEF- jayesh_21</a></li>
+                    <li><a href="https://github.com/JayeshBhatnagar">GITHUB- JayeshBhatnagar</a></li>
+                    <li>INSTAGRAM- jayesh_1226</li>
+                    
+                    
+                    
+                </ul>
+            </div>
+        </div>
+        </section>
+        
+        
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Coder', 'Football player','Anchor','Web Developer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
